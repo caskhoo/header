@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Parent: Wrapper
+         children: header--> 
+        <div class="header">
+            <!-- Parent: header
+             children:  header__title, header__list, header__menu-->
+             <div class="header__inner">
+                <div class="header__title">Besnik</div>
+                 <!-- Parent: header__title
+                 Children: Besnik -->
+                 <ul class="header__list">
+                     <!-- Parent: header__list
+                     Children: header__list-item -->
+                     <li class="header__list-item"> 
+                         <a href="#" class="header__list-link">Ranking</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link">Watchlist</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link">Portfolio</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__list-link">Tools</a>
+                        </li>
+                    </ul>
+                    <div class="header__menu">
+                        <!-- Parent: header__menu
+                        Children: Span, header__cta -->
+                        <span>Log in</span>
+                        <a href="/" class="header__cta">Get Started</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
